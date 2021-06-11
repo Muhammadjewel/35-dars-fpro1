@@ -61,3 +61,75 @@ img {
   background-repeat: no-repeat;
   background-position: calc(50% - 700px) 60px, left calc(50% + 400px) bottom -100px;
 }
+
+
+/* INDEX-FEATURES */
+.index-features {
+  padding-top: 200px;
+  padding-bottom: 140px;
+}
+
+.index-features__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-features__heading {
+  position: relative;
+  z-index: 1;
+  width: 445px;
+  margin: 0;
+}
+
+.index-features__heading::before {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: -54px;
+  width: 50px;
+  height: 4px;
+  background-color: tomato;
+  content: "";
+}
+
+.index-features__list {
+  width: 540px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.index-features__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.index-feature {
+  /* padding-left: 95px; */
+  background-repeat: no-repeat;
+  background-size: 72px;
+}
+
+.index-feature--a {
+  background-image: url("https://picsum.photos/72?random=1");
+}
+
+.index-feature--b {
+  background-image: url("https://picsum.photos/72?random=2");
+}
+
+.index-feature--c {
+  background-image: url("https://picsum.photos/72?random=c");
+}
+
+.index-feature__heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.index-feature__desc {
+  margin: 0;
+}
+
+.index-feature__desc:not(:last-child) {
+  margin-bottom: 12px;
+}
