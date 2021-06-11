@@ -43,9 +43,21 @@ img {
 
 /* CONTAINER */
 .container {
-  max-width: 900px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/* HERO */
+.hero {
+  padding-top: 60px;
+  padding-bottom: 250px;
+  background-color: dodgerblue;
+  background-image: url("../img/hero-bg-left.svg"),
+    url("../img/hero-bg-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 700px) 60px, left calc(50% + 400px) bottom -100px;
 }
